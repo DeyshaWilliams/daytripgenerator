@@ -1,3 +1,5 @@
+#Create a list of destinations and transportation and more specified lists of restaurants and entertainment
+
 destinations = ['Cape Town', 'Marrakesh', 'Cairo', 'Lagos', 'Johannesburg', 'San Juan', 'Kingston', 'Gros Islet']
 
 cape_town_restaurants = ['La Colombe', 'Grub & Vine', 'The Cousins Trattoria', 'Chefs Warehouse Winebar & Pinchos', 'The Pot Luck Club', 'Mozambik V & A Waterfront', 'Pigalle', 'SeaBreeze Fish & Shell']
@@ -20,10 +22,15 @@ san_juan_entertainment = ['go snorkeling with sea turtles', 'ride ATVs at Campo 
 kingston_entertainment = ['visit the Bob Marley Museum', 'visit the National Gallery of Jamaica', 'visit Emancipation Park', 'visit Lime Cay', 'visit Fort Charles', 'bobsled River Falls', 'tour Konoko Falls and Garden', 'raft on Rio Grande']
 gros_islet_entertainment = ['snorkel in Catamaran', 'to zip lining in the rainforest', 'tour St Lucia on an ATV', 'go horseback riding on the beach', 'go dolphin and whale watching', 'go on a boat tour', 'tour the rainforest by aerial tram', 'take a mud bath in the sulphur springs']
 
+#Create a while loop that continues only if user is unsatisfied with the end product
+
 print('Welcome to your personalized day trip generator!')
 satisfied = False
 
 while satisfied == False:
+
+#Create functions to loop through lists and store results returned
+
     def find_destination():
         import random
         final_destination = random.shuffle(destinations)
@@ -115,6 +122,8 @@ while satisfied == False:
             rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
             if rest_input == 'y':
                 return ran_restaurant
+
+#Create functions to store returned results based on destination for both restaurants and entertainment
 
     def find_restaurant_one():
         if chosen_dest == 'Cape Town':
@@ -291,6 +300,8 @@ while satisfied == False:
     trans_mode = find_transportation()
     chosen_rest = find_restaurant_master()
     chosen_ent = find_ent_master()
+
+#Confirm user satisfaction and print results. If unsatisfied, continue while loop
 
     conf_input = input('We have generated your trip! Confirm completion? (y/n) ')
 
