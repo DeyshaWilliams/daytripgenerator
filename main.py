@@ -28,6 +28,8 @@ def find_destination():
 
     for final_destination in destinations:
         destination_input = input(f'You have chosen {final_destination}! Is this correct? y/n: ')
+        if destination_input == 'y':
+            return final_destination
 
 
 def find_transportation():
@@ -36,4 +38,78 @@ def find_transportation():
 
     for ran_transportation in transportation:
         trans_input = input(f'You have chosen to arrive by {ran_transportation}! Is this correct? y/n: ')
+        if trans_input == 'y':
+            return ran_transportation
+
+def find_cape_town_restaurant():
+    import random
+    ran_restaurant = random.shuffle(cape_town_restaurants)
+
+    for ran_restaurant in cape_town_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_marrakesh_restaurant():
+    import random
+    ran_restaurant = random.shuffle(marrakesh_restaurants)
+
+    for ran_restaurant in marrakesh_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_cairo_restaurant():
+    import random
+    ran_restaurant = random.shuffle(cairo_restaurants)
+
+    for ran_restaurant in cairo_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_lagos_restaurant():
+    import random
+    ran_restaurant = random.shuffle(lagos_restaurants)
+
+    for ran_restaurant in lagos_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_johannesburg_restaurant():
+    import random
+    ran_restaurant = random.shuffle(johannesburg_restaurants)
+
+    for ran_restaurant in johannesburg_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_san_juan_restaurant():
+    import random
+    ran_restaurant = random.shuffle(san_juan_restaurants)
+
+    for ran_restaurant in san_juan_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_kingston_restaurant():
+    import random
+    ran_restaurant = random.shuffle(kingston_restaurants)
+
+    for ran_restaurant in kingston_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
+
+def find_gros_islet_restaurant():
+    import random
+    ran_restaurant = random.shuffle(gros_islet_restaurants)
+
+    for ran_restaurant in gros_islet_restaurants:
+        rest_input = input(f'You have chosen to eat at {ran_restaurant}! Is this correct? y/n: ')
+        if rest_input == 'y':
+            return ran_restaurant
 
