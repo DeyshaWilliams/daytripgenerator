@@ -1,0 +1,21 @@
+destinations = ['Cape Town', 'Marrakesh', 'Cairo', 'Lagos', 'Johannesburg', 'San Juan', 'Kingston', 'Gros Islet']
+
+cape_town_restaurants = ['La Colombe', 'Grub & Vine', 'The Cousins Trattoria', 'Chefs Warehouse Winebar & Pinchos', 'The Pot Luck Club', 'Mozambik V & A Waterfront', 'Pigalle', 'SeaBreeze Fish & Shell']
+marrakesh_restaurants = ['Pepe Nero', 'Al Fassia', 'Dar Moha', 'Comptoir Darna', 'Nomad', 'Dameh', 'Kabana Rooftop Food & Cocktails', 'La Famille']
+cairo_restaurants = ['The Grill', 'JW Steakhouse', 'Zooba', 'Pane Vino', 'Saigon', 'Osmanly', 'Pier 88 Nile River', 'Crimson Bar & Grill']
+lagos_restaurants = ['RSVP', 'Cactus', 'Shiro Lagos', 'Lagoon', 'Bungalow', 'Z Kitchen', "Gurunar's Viceroy", 'Yellow Chilli']
+johannesburg_restaurants = ['Marble', 'Level Four', 'The Grillhouse Rosebank', 'La Boqueria Parktown North', 'Signature', 'Mezepoli', 'Bellagio', 'Che Argentine Grill']
+san_juan_restaurants = ['Marmalade', 'Princesa', 'Barrachina', 'Fogo de Chao Brazillian Steakhouse', 'La Casita Blanca', 'Casita Marimar', 'Serafina', "Sofia's Old San Juan"]
+kingston_restaurants = ['Tamarind', 'Broken Plate', 'Nirvanna Restaurant Lady Musgrave', "Usain Bolt's Tracks & Records", 'South Avenue Grill', 'Uncorked!', 'Saffron', 'Reggae Mill']
+gros_islet_restaurants = ['Golden Taste', "Vino's Bar and Bistro", 'Frydays', "Angel's Delight", 'Rituals Sushi', 'Merlyn', 'Pork Eat Up', "Boaty's Seafood Grill"]
+
+transportation = ['by boat', 'by train', 'by plane', 'by rental car', 'on bicycle', 'on foot']
+
+cape_town_entertainment = ['go shark cage diving', 'go on a wine tram tour', 'see the penguins', 'go on a safari', 'go on a champagne cruise', 'go on a helicopter tour', 'visit Robben Island', 'go seal snorkeling']
+marrakesh_entertainment = ['']
+cairo_entertainment = ['']
+lagos_entertainment = ['']
+johannesburg_entertainment = ['']
+san_juan_entertainment = ['']
+kingston_entertainment = ['']
+gros_islet_entertainment = ['']
