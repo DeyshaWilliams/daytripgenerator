@@ -12,10 +12,28 @@ gros_islet_restaurants = ['Golden Taste', "Vino's Bar and Bistro", 'Frydays', "A
 transportation = ['by boat', 'by train', 'by plane', 'by rental car', 'on bicycle', 'on foot']
 
 cape_town_entertainment = ['go shark cage diving', 'go on a wine tram tour', 'see the penguins', 'go on a safari', 'go on a champagne cruise', 'go on a helicopter tour', 'visit Robben Island', 'go seal snorkeling']
-marrakesh_entertainment = ['']
-cairo_entertainment = ['']
-lagos_entertainment = ['']
-johannesburg_entertainment = ['']
-san_juan_entertainment = ['']
-kingston_entertainment = ['']
-gros_islet_entertainment = ['']
+marrakesh_entertainment = ['go on a hot air balloon ride', 'go on a camel ride tour', 'ride a quad bike through the desert', 'visit Ouzoud Falls', 'visit Essaouira', 'take a Moroccan cooking class', 'go shopping in the souks of Marrakesh', 'tour the "hidden sites" of Marrakesh']
+cairo_entertainment = ['tour the pyramids', 'tour Alexandria', 'sail the Nile', 'visit the Red Sea', 'go on a hot air balloon ride', 'ride an ATV through Giza', 'visit the Siwa oasis', 'tour the mosques of Cairo']
+lagos_entertainment = ['boat to Ponta da Piedad', 'go on a "seafari"', 'cruise the Golden Coast', 'go on a wine tasting tour', 'visit Algarve', 'go swimming in Benagil', 'go dolphin and whale watching', 'tour old and new Lagos']
+johannesburg_entertainment = ['visit the Apartheid Museum', 'visit the Gold Reef City theme park', "visit Mandele's house", 'visit the Cradle of Humankind', 'visit the Johannesburg Zoo', 'go on a safari', 'tour Soweto', 'go on a hot air balloon ride']
+san_juan_entertainment = ['go snorkeling with sea turtles', 'ride ATVs at Campo Rico Ranch', 'tour the El Yunque Rainforest', 'tour the Culebra Islands', 'tour the Ron del Barrilito Distillarty', 'tour San Juan', 'tour the bay and hot springs by boat', 'go zip lining through the rainforest']
+kingston_entertainment = ['visit the Bob Marley Museum', 'visit the National Gallery of Jamaica', 'visit Emancipation Park', 'visit Lime Cay', 'visit Fort Charles', 'bobsled River Falls', 'tour Konoko Falls and Garden', 'raft on Rio Grande']
+gros_islet_entertainment = ['snorkel in Catamaran', 'to zip lining in the rainforest', 'tour St Lucia on an ATV', 'go horseback riding on the beach', 'go dolphin and whale watching', 'go on a boat tour', 'tour the rainforest by aerial tram', 'take a mud bath in the sulphur springs']
+
+print('Welcome to your personalized day trip generator!')
+
+def find_destination():
+    import random
+    final_destination = random.shuffle(destinations)
+
+    for final_destination in destinations:
+        destination_input = input(f'You have chosen {final_destination}! Is this correct? y/n: ')
+
+
+def find_transportation():
+    import random
+    ran_transportation = random.shuffle(transportation)
+
+    for ran_transportation in transportation:
+        trans_input = input(f'You have chosen to arrive by {ran_transportation}! Is this correct? y/n: ')
+
